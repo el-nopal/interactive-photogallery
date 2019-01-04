@@ -12,6 +12,9 @@ body {
   justify-content: center;
   margin: 10%;
 }
+input {
+  max-width: 600px;
+}
 
 img {
   max-width: 100%;
@@ -21,9 +24,6 @@ img {
 /*========================
 media queries
 ==========================*/
-
-/* 320px, 768px, 1024px */
-
 @media (min-width: 768px) {
   .container {
     display: flex;
@@ -44,7 +44,7 @@ media queries
     max-width: 985px;
   }
 
-  /* img {
-    max-width: 25%;
-  } */
+  img {
+    margin: 20px;
+  }
 }
