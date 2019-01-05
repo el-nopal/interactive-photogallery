@@ -173,6 +173,7 @@ html.lb-disable-scrolling {
   font-weight: bold;
   line-height: 1em;
   width: 600px;
+  margin: 5% auto;
 }
 
 .lb-data .lb-caption a {
@@ -180,7 +181,7 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-number {
-  display: block;
+  display: inline;
   clear: left;
   padding-bottom: 1em;
   font-size: 12px;
