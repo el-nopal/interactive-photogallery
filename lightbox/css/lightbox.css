@@ -30,12 +30,12 @@ html.lb-disable-scrolling {
 .lightbox .lb-image {
   display: block;
   height: auto;
-  max-width: inherit;
-  max-height: none;
+  max-width: 800px;
+  max-height: 500px;
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  /* border: 4px solid white; */
 }
 
 .lightbox a img {
@@ -52,7 +52,8 @@ html.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  /* background-color: black; */
+
 }
 
 .lb-outerContainer:after {
@@ -160,16 +161,18 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
-  float: left;
-  text-align: left;
+  /* width: 85%; */
+  float: center;
+  text-align: center;
   line-height: 1.1em;
 }
 
 .lb-data .lb-caption {
+
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
+  width: 600px;
 }
 
 .lb-data .lb-caption a {
@@ -184,7 +187,7 @@ html.lb-disable-scrolling {
   color: #999999;
 }
 
-.lb-data .lb-close {
+/* .lb-data .lb-close {
   display: block;
   float: right;
   width: 30px;
@@ -204,4 +207,4 @@ html.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-}
+} */
