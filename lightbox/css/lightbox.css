@@ -188,7 +188,7 @@ html.lb-disable-scrolling {
   color: #999999;
 }
 
-/* .lb-data .lb-close {
+.lb-data .lb-close {
   display: block;
   float: right;
   width: 30px;
@@ -208,4 +208,4 @@ html.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-} */
+}
